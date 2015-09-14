@@ -18,6 +18,7 @@ $RECYCLE.BIN/
 .idea
 include/php/temp
 include/php/data
+test.php
 
 # Windows shortcuts
 *.lnk

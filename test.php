@@ -4,7 +4,7 @@
 	require_once 'include/php/User.class.inc';
 
     $user = new User();
-    $user->addAccount('harish095', 'hsirah9908897909', 1, 1);
+    $user->addAccount('abhishekmunna', 'gold', 1, 1);
 
     $user->loadAllAccounts();
 
