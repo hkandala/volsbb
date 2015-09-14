@@ -28,6 +28,8 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 .idea
+include/php/temp
+include/php/data
 
 # Thumbnails
 ._*
