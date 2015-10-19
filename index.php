@@ -3,11 +3,11 @@
 
 	require_once 'include/php/VOLSBB.class.inc';
 
-    $volsbb = new VOLSBB('DHANUSHIK', 'porn');
+    $volsbb = new VOLSBB('harish095', 'hsirah9908897909');
 
     $volsbb->refreshSession();
 
-    if(($feedback = $volsbb->getHistory('custom', '21', '07', '2015', '10', '09', '2015', $result)) === true) {
+    if(($feedback = $volsbb->getUsageData($result)) === true) {
         echo '<pre>';
         print_r($result);
         echo '</pre>';
